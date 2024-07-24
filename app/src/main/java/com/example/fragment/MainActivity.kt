@@ -36,6 +36,7 @@ class MainActivity : AppCompatActivity() {
         tr.replace(R.id.fragmentContainerView,fragment)
         tr.commit()
     }
+
     @SuppressLint("CommitTransaction")
     private fun eventHandler(){
         button1.setOnClickListener{

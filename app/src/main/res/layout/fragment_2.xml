@@ -4,16 +4,16 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#03A9F4"
+    android:background="@color/white"
     android:orientation="vertical"
-    tools:context=".Fragment1">
+    tools:context=".Fragment2">
 
     <!-- TODO: Update blank fragment layout -->
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Fragment 1"
+        android:text="Fragment 2"
         android:textAlignment="center"
         android:textSize="34sp"
         android:textStyle="bold"
@@ -23,7 +23,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
-        android:id="@+id/nextPage"
+        android:id="@+id/nextPage1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Next Page"
